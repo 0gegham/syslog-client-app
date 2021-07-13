@@ -1,0 +1,16 @@
+spring:
+  datasource:
+    url: url
+    username: username
+    password: password
+
+# When sending messages using UDP, the destination port is usually 514.
+# When sending messages using TCP, the destination port is usually 1468.
+server:
+  host: host
+  port: port
+
+app:
+  standard: RFC3164
+  delay: 2000
+  date_path: last_date.txt
